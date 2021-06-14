@@ -1,21 +1,17 @@
 {
-  "name": "kyc-node",
+  "name": "identity-management-system",
   "version": "1.0.0",
-  "description": "POC on Ethereum blockchain for Identity management",
+  "description": "Identity management System for 5th semester minor project.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "POC",
-    "on",
-    "Ethereum",
-    "blockchain",
-    "for",
     "Identity",
-    "management"
+    "management",
+    "System"
   ],
-  "author": "Ayyalu",
+  "author": "Atishay",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",

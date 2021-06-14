@@ -13,11 +13,10 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.use(bodyParser.json()); // support json encoded bodies
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true })); 
 
-// Deploy Smart Contract and place smart contract address here 
-var ContractAddress = "0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+var ContractAddress = "0x5169ab4d72d29ccb23a02fc48d3880d4f5744b5d";
 
 app.get('/', function (req, res) {
 	res.render("index")
